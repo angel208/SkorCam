@@ -19,7 +19,7 @@ the algorithm is something like this: the webcam reads frames continuously until
 
 The program looks for the five orange lines and makes a reference system where the notes should be positioned. Meanwhile, it looks for blue figures and pass them through an SVM (Support Vector Machine), to identify the kind of the figure (using a learning algorithm) and the position relative to where the lines are. Once the notes (and its kind) are identified, and the position is known, the program plays the melody. 
 
-Limits of the software:
+Limitations of the software:
 
 * It works better with stable, clear and white light.
 * Heavy shadows are a problem.
