@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<opencv_ml_svm>
+  <format>3</format>
+  <svmType>C_SVC</svmType>
+  <kernel>
+    <type>LINEAR</type></kernel>
+  <C>1.</C>
+  <term_criteria><iterations>100</iterations></term_criteria>
+  <var_count>7</var_count>
+  <class_count>2</class_count>
+  <class_labels type_id="opencv-matrix">
+    <rows>2</rows>
+    <cols>1</cols>
+    <dt>i</dt>
+    <data>
+      0 1</data></class_labels>
+  <sv_total>1</sv_total>
+  <support_vectors>
+    <_>
+      7.67998934e+000 6.96272373e+000 -2.00951099e+000 -7.85218060e-001
+      -6.00484088e-002 -9.53489766e-002 1.60952215e-003</_></support_vectors>
+  <decision_functions>
+    <_>
+      <sv_count>1</sv_count>
+      <rho>4.7777353003621101e+000</rho>
+      <alpha>
+        1.</alpha></_></decision_functions></opencv_ml_svm>
+</opencv_storage>
